@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+     padding: 10px;
+     text-decoration: none;
+}
+header p{
+    display: inline;
+    margin-left: 100px;
+    text-decoration: none;
+}
+header p a{
+    color: white;
+    font-size: large;
+}
+#abc{
+    margin-left: 10px;
+}
+#submit{
+    margin-left: 800px;
+    width: 180px;
+    background-color: black;
+    border: 1px solid #ffff;
+    font-weight: bolder;
+    font-size: large;
+}
+#signin{
+    margin-left: 10px;
+    width: 100px;
+    background-color: royalblue;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: large;
+}
+#signin:hover{
+    background-color: white;
+    color: black;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+}
+.container{
+    background-color: #dadbf1;
+    height: 250px;
+    padding: 50px;
+    padding-bottom: 70px;
+}
+.searchbox{
+    background-color: #dadbf1;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.searchbox button{
+    background-color: white;
+    font-size: 22px;
+    border: 0px solid black;
+    position: absolute;
+    right: 490px;
+    top: 250px;
+}
+.searchbox input{
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contains{
+    margin-top: 100px;
+    display: flex;
+}
+.branches{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 50px;
+    width: 1000px;
+}
+.contains1{
+    margin-left: 120px;
+    padding: 10px;
+}
+.account{
+    margin-left: 50px;
+    margin-right: 200px;
+    padding: 50px;
+    width: 1000px;
+}
+.account1{
+    margin-left: 120px;
+    padding: 10px;
+}
+.contains2{
+    display: flex;
+}
+.organizations{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 50px;
+    width: 1000px;
+}
+.organizations1{
+    margin-left: 120px;
+    padding: 10px;
+}
+.biling{
+    margin-left: 50px;
+    margin-right: 200px;
+    padding: 50px;
+    width: 1000px;
+}
+.biling1{
+    margin-left: 120px;
+}
+.contains3{
+    display: flex;
+    margin-bottom: 100px;
+}
+.authenticate{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 50px;
+    width: 1000px;
+}
+.authenticate1{
+    margin-left: 120px;
+    padding: 10px;
+}
+.support{
+    margin-left: 50px;
+    margin-right: 200px;
+    padding: 50px;
+    width: 1000px;
+}
+.support1{
+    margin-left: 120px;
+    padding: 10px;
+}
+img{
+    float: left;
+}
+footer{
+    background-color: black;
+}
+table{
+    color: white;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 80px;
+}
+th ,td{
+    border: 1px solid black;
+    width: 250px;
+    text-align: left; 
+}

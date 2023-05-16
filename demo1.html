@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Image Gallery</h1>
+  </header>
+
+  <section id="upload-section">
+    <h2>Upload Image</h2>
+    <input type="file" id="imageUpload" accept="image/*">
+    <textarea id="dialogueInput" placeholder="Enter dialogue"></textarea>
+    <textarea id="lyricsInput" placeholder="Enter lyrics"></textarea>
+    <button onclick="addImage()">Add Image</button>
+  </section>
+
+  <section id="gallery-section">
+    <h2>Gallery</h2>
+    <div id="gallery"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
