@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 25px;
+}
+header nav ul li :hover{
+    background-color: black;
+}
+header nav ul li{
+    display: inline;
+}
+header nav{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(41, 38, 38);
+}
+.listItems{
+    background-color: #E7E9EB;
+    float: left;
+    padding: 20px;
+    position: fixed;
+    overflow-y: scroll;
+    height: 900px;
+    width: 170px;
+    top: 43px;
+    border: 1px solid black;
+}
+.listItems li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.listItems li{
+    list-style: none;
+    padding: 1px;
+}
+.listItems li:hover{
+    background-color: rgb(91, 94, 95);
+    border-radius: 5px;
+}
+.addFrame{
+    float: right;
+    padding: 20px;
+    text-align: center;
+    position: static;
+    right: 0px;
+    margin-top: 43px;
+    border: 0px solid rgb(141, 139, 139);
+    background-color: #fff!important;
+}
+.addFrame p{
+    padding: 10px;
+    font-size: larger;
+}
+#color{
+    padding-bottom: 30px;
+}
+.buttons{
+    width: 500px;
+}
+#cource{
+    margin-top: 20px;
+}
+.logo i {
+    padding: 4px;
+    font-size: x-large;
+}
+.h1{
+    font-size: xx-large;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 100px 0px 10px 20px;
+    margin: 0px 233px 0px 233px;
+}
+.buttons{
+    padding: 20px 20px 20px 0px;
+    width: 1020px;
+}
+.homepre{
+    padding: 10px 20px 10px 20px;
+    background-color: #04AA6D;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+.nextpre{
+    padding: 10px 20px 10px 20px;
+    background-color: #04AA6D;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin-left: 780px;
+}
+.htmldef{
+    background-color: #D9EEE1;
+    height: 300px;
+    padding: 30px 0px 0px 0px;
+    width: auto;
+    margin-left: 210px;
+    margin-right: 229px;
+}
+.htmldef p{
+    font-family: Verdana,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 45px;
+}
+.studyhtml{
+    margin-top: 30px;
+    margin-left: 45px;
+    text-decoration: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.watchtutorial{
+    margin-top: 30px;
+    margin-left: 45px;
+    text-decoration: none;
+    background-color: #282A35;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.ribbon-vidx{
+    width: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    position: absolute;
+    left: 230px;
+    top: 474px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #FFF4A3;
+    color: black;
+    transform: rotate(-21deg);
+}
+hr{
+    width: 1000px;
+    margin-top: 25px;
+    margin-left: 255px;
+    color: #000;
+}
+.tryYourSelf{
+    margin-top: 25px;
+}
+.tryYourSelf span{
+    font-size: 32px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin-left: 254px;
+}
+.para{
+    margin-top: 25px;
+}
+.para p{
+    font-size: 15px;
+    margin: 18px 0px 18px 254px;
+    font-family: Verdana,sans-serif;
+}
+.box1{
+    background-color: #E7E9EB;
+    margin: 20px 229px 0px 225px;
+    height: 350px;
+}
+.box1 a{
+    padding: 10px 0px 10px 0px;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.example{
+    font-size: 26px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-left: 29px;
+    margin: 15px 0px 15px 0px;
+}
+.basecode{
+    margin-left: 29px;
+    margin-right: 245px;
+    background-color: white;
+    width: 970px;
+    padding: 20px;
+}
