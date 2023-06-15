@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -206,3 +207,63 @@ hr{
     width: 970px;
     padding: 20px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  input[type="file"], textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .image-card {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .image-card img {
+    width: 100%;
+  }
+  
+  .image-card .dialogue {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .image-card .lyrics {
+    margin-top: 5px;
+  }
+  
